@@ -3,7 +3,7 @@
 #### Makers Academy Week 7 Project Challenge:
 Create a single-page web application using only front-end javascript.
 Use your own testing framework
-No librairies permitted
+No libraries permitted
 
 ## User Stories
 
