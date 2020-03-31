@@ -1,5 +1,5 @@
-
-(function NoteModelTest() {
+(function(exports) {
+   function NoteModelTest() {
     var text = 'My favourite language is JavaScript'
     var note = new Note(text)
     
@@ -8,6 +8,10 @@
     } else {
         console.log("Test passed")
     }
+
+};
+
+NoteModelTest();
 
 
 })();
