@@ -4,18 +4,16 @@
 
     function NoteList(list) {
         this.list = [];
-
     }
 
-    NoteList.prototype.addNote = function() {
-        note = new Note(text)
+    NoteList.prototype.addNote = function(note) {
         this.list.push(note)
     }
 
-    NoteList.prototype.showAllNotes = function() {
-        return this.list
+    NoteList.prototype.createNewNote = function(text) {
+        this.addNote(new Note(text))
     }
 
-  exports.NoteList = NoteList
+  exports.NoteList = NoteList;
 
 })(this);

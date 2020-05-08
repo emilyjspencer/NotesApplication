@@ -25,10 +25,6 @@ function ReturnTextTest() {
 };
 
 
-
-
-
-
 NoteModelTest();
 ReturnTextTest();
 
