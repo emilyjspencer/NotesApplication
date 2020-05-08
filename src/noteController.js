@@ -3,10 +3,7 @@
 
     function NoteController(noteList) {
         this.notesPage = document.getElementById('notesPage');
-        noteList.createNewNote("Go for a run")
-        noteList.createNewNote("Cook")
-        noteList.createNewNote("Meditate")
-        noteList.createNewNote("Watch Killing Eve")
+        noteList.createNewNote("Go for a run and")
         this.notesView = new NoteListView(noteList) 
     }
 
