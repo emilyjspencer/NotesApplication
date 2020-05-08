@@ -16,7 +16,7 @@ function ReturnTextTest() {
     var note = new Note(text)
 
     if(note.returnText() !== text) {
-        throw new Error("TExt failed")
+        throw new Error("Test failed")
     } else {
         console.log("Test passed")
     }
