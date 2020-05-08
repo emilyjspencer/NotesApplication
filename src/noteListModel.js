@@ -4,9 +4,12 @@
 
     function NoteList(list) {
         this.list = [];
+        this.idCount = 0;
     }
 
     NoteList.prototype.addNote = function(note) {
+        note.id = this.idCount
+        this.idCount ++
         this.list.push(note)
     }
 
